@@ -1,46 +1,37 @@
 package student.examples;
 
+import java.io.IOException;
+import java.net.URL;
+
 import javafx.application.Application;
-import javafx.event.EventHandler;
-import javafx.geometry.Pos;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import student.examples.domain.ProductRepository;
 
 public class App extends Application {
 
+    
+
     @Override
     public void start(Stage stage) {
+        try {
 
-        VBox root = new VBox();
-        Scene scene = new Scene(root, 450, 350);
-
-        final Label label = new Label("Click on the button below!");
-        Button button = new Button("Click me!");
-
-        root.getChildren().add(label);
-        root.getChildren().add(button);
-
-        EventHandler<MouseEvent> handler = new EventHandler<MouseEvent>() {
-            int times = 0;
-            @Override
-            public void handle(MouseEvent event) {
-                times++;
-                label.setText("You've clicked " + times + " times!");
-            }
-        };
-
-        button.addEventHandler(MouseEvent.MOUSE_CLICKED, handler); 
-        root.setAlignment(Pos.CENTER);
-
-        stage.setScene(scene);
-        stage.show();
-
+            URL fxmURL = getClass().getResource("/fxml/layout.fxml");
+            FXMLLoader loader = new FXMLLoader(fxmURL);
+            
+            Parent root = loader.load();
+            MainController mainController = loader.getController();
+            mainController.setProductRepository(new ProductRepository());
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
     }
-    
     public static void main(String[] args) {
         launch();
     }
