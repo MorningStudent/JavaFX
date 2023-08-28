@@ -42,11 +42,11 @@ public class Currency {
 
     @Override
     public String toString() {
-        String toString = "Currency [" + charCode + ", numCode=" + numCode + ", ratio=" + ratio + "]";
-        if (numCode == 0) {
-            toString = charCode;
-        }
-        return toString;
+        // String toString = "Currency [" + charCode + ", numCode=" + numCode + ", ratio=" + ratio + "]";
+        // if (numCode == 0) {
+        //     toString = charCode;
+        // }
+        return charCode;
     }
 
 }

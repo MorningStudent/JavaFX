@@ -1,6 +1,10 @@
 E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\domain\Money.java
+E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\services\PriceTransformer.java
 E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\domain\ProductRepository.java
+E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\domain\IHasPrice.java
 E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\domain\Product.java
+E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\services\BNMService.java
 E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\domain\Currency.java
+E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\services\ICurrencyService.java
 E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\MainController.java
 E:\JAVA\Java 2\Maven\e-shop\e-shop-javafx\src\main\java\student\examples\App.java

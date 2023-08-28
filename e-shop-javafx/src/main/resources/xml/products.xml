@@ -4,8 +4,8 @@
     <description>Air Force 1 Low '07 "White On White" sneakers</description>
     <image>/images/Nike--Air Force 1 Low.jpg</image>
     <price>
-        <amount>1681.5</amount>
-        <currency>MDL</currency>
+        <amount>95</amount>
+        <currency>USD</currency>
     </price>
   </product>
   <product>
@@ -13,8 +13,8 @@
     <description>Air Jordan 3 "White Cement Reimagined 2023" sneakers</description>
     <image>/images/Jordan--Air Jordan 3.jpg</image>
     <price>
-        <amount>36993.3</amount>
-        <currency>MDL</currency>
+        <amount>195</amount>
+        <currency>USD</currency>
     </price>
   </product>
   <product>
@@ -22,8 +22,8 @@
     <description>ACS Pro chunky sneakers</description>
     <image>/images/Salomon--ACS Pro chunky.jpg</image>
     <price>
-        <amount>4366.5</amount>
-        <currency>MDL</currency>
+        <amount>245</amount>
+        <currency>USD</currency>
     </price>
   </product>
 </products>

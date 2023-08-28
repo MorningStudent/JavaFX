@@ -1,6 +1,6 @@
 package student.examples.domain;
 
-public class Product {
+public class Product implements IHasPrice{
     private String name;
     private String description;
     private String image;

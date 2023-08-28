@@ -5,13 +5,13 @@ public class Money {
     private int amount;
     private Currency currency;
     
-    public Money(int amount, Currency currency) {
-        this.amount = amount;
+    public Money(int amountDecimal, Currency currency) {
+        amount = amountDecimal;
         this.currency = currency;
     }
 
-    public Money(float amount, Currency currency) {
-        this.amount = (int)(amount * 100);
+    public Money(float amountCents, Currency currency) {
+        amount = (int)(amountCents * 100);
         this.currency = currency;
     }
 
